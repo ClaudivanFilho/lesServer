@@ -11,7 +11,16 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+Route::get('/', function() {
+	return Redirect::to('/receita/nova');
 });
+
+Route::get('/receita/nova', function () {
+	return View::make('cadastrarReceita');
+});
+
+Route::post('/receita/nova', function () {
+    return Input::all();
+});
+
+

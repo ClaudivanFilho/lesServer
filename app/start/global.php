@@ -20,6 +20,13 @@ ClassLoader::addDirectories(array(
 
 ));
 
+
+if (App::environment() == 'testing') {
+    ClassLoader::addDirectories(array(
+        app_path() . '/tests',
+    ));
+}
+
 /*
 |--------------------------------------------------------------------------
 | Application Error Logger

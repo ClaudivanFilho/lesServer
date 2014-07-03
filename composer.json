@@ -3,9 +3,17 @@
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
-	"require": {
-		"laravel/framework": "4.2.*"
-	},
+    "require": {
+        "laravel/framework": "4.2.*",
+        "cartalyst/sentry": "2.*",
+        "laravelbook/ardent": "dev-master",
+        "barryvdh/laravel-ide-helper": "1.*",
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "require-dev": {
+        "way/generators": "1.*",
+        "phpunit/phpunit": "3.7.*"
+    },
 	"autoload": {
 		"classmap": [
 			"app/commands",
@@ -23,6 +31,7 @@
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
+            "php artisan ide-helper:generate",
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [

@@ -12,7 +12,12 @@ return array(
 	| application. If disabled, a simple generic error page is shown.
 	|
 	*/
+    'url' => 'http://localhost:8000/',
 
 	'debug' => true,
 
+    'providers' => [
+        'Way\Generators\GeneratorsServiceProvider',
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+    ]
 );

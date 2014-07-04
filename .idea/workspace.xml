@@ -52,6 +52,17 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="cadastrarReceita.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="63" selection-start="2721" selection-end="2721" vertical-scroll-proportion="0.20421393" vertical-offset="1155" max-vertical-offset="1932">
+              <folding>
+                <element signature="n#style#0;n#div#3;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,16 +84,16 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="1575">
+            <state line="26" column="38" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_07_03_222238_create_receitas_table.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2014_07_03_222238_create_receitas_table.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_222238_create_receitas_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="50" selection-start="459" selection-end="459" vertical-scroll-proportion="0.44761905" vertical-offset="12" max-vertical-offset="714">
+            <state line="15" column="50" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -101,15 +112,6 @@
         <entry file="file://$PROJECT_DIR$/app/models/ReceitaTag.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="23" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReceitaIngrediente.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/ReceitaIngrediente.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="23" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -519,12 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="43" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1512">
           <folding>
-            <element signature="n#style#0;n#div#0;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -807,21 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="38" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="1932">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://db-console:/5a44233f/9ab055e6-c0c6-42f5-88b9-6ad2cfd71228/">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="21" selection-start="66" selection-end="66" vertical-scroll-proportion="0.10482529" vertical-offset="0" max-vertical-offset="601">
@@ -843,17 +824,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_222238_create_receitas_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="1575">
+        <state line="15" column="50" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_222238_create_receitas_table.php">
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="50" selection-start="459" selection-end="459" vertical-scroll-proportion="0.44761905" vertical-offset="12" max-vertical-offset="714">
+        <state line="26" column="38" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="1575">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="63" selection-start="2721" selection-end="2721" vertical-scroll-proportion="0.20421393" vertical-offset="1155" max-vertical-offset="1932">
+          <folding>
+            <element signature="n#style#0;n#div#3;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

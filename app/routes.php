@@ -24,7 +24,7 @@ Route::get('/receita/nova', function () {
 Route::post('/receita/nova', function () {
     $rec = new Receita();
     $rec->nome = Input::get('nome');
-    $rec->nota = Input::get('nota');
+    $rec->nota = Input::get('number');
     $rec->numPessoas = Input::get('numDePessoas');
     $rec->categoria = Input::get('categoria');
     $rec->tempo = Input::get('tempo');

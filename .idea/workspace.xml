@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97fa4adc-81e2-4948-b1d6-b92e9f592756" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/ApiController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tests/ApiTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Claudivan.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/ReceitaController.php" />
+      <change type="DELETED" beforePath="C:\Users\Claudivan\git\lesServer\app\controllers\HomeController.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Ingrediente.php" afterPath="$PROJECT_DIR$/app/models/Ingrediente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/IngredienteTest.php" afterPath="$PROJECT_DIR$/app/tests/IngredienteTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Receita.php" afterPath="$PROJECT_DIR$/app/models/Receita.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ReceitaIngrediente.php" afterPath="$PROJECT_DIR$/app/models/ReceitaIngrediente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ReceitaTag.php" afterPath="$PROJECT_DIR$/app/models/ReceitaTag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/ReceitaTest.php" afterPath="$PROJECT_DIR$/app/tests/ReceitaTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Tag.php" afterPath="$PROJECT_DIR$/app/models/Tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lesServer.iml" afterPath="$PROJECT_DIR$/.idea/lesServer.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lesServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IngredienteTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/IngredienteTest.php">
+      <file leaf-file-name="ApiTest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+            <state line="37" column="46" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.2580645" vertical-offset="609" max-vertical-offset="1974">
               <folding />
             </state>
           </provider>
@@ -37,45 +51,16 @@
       <file leaf-file-name="ReceitaTest.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/tests/ReceitaTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1239">
+            <state line="15" column="39" selection-start="396" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2982">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_07_03_223302_create_receitaingrediente_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223302_create_receitaingrediente_table.php">
+      <file leaf-file-name="ApiController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastrarReceita.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="63" selection-start="2721" selection-end="2721" vertical-scroll-proportion="0.20421393" vertical-offset="1155" max-vertical-offset="1932">
-              <folding>
-                <element signature="n#style#0;n#div#3;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="58" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4200">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ingrediente.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Ingrediente.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="13" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
+            <state line="30" column="9" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -84,16 +69,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="38" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="1575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014_07_03_222238_create_receitas_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_222238_create_receitas_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="50" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="714">
+            <state line="12" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
@@ -102,16 +78,16 @@
       <file leaf-file-name="Receita.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="40" selection-start="65" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="35" column="20" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="903">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReceitaTag.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/ReceitaTag.php">
+      <file leaf-file-name="Ingrediente.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Ingrediente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+            <state line="6" column="28" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
               <folding />
             </state>
           </provider>
@@ -141,6 +117,8 @@
       <command text="g:m ReceitaTag" />
       <command text="g:mi create_receitatag_table" />
       <command text="art migrate" />
+      <command text="g:c ReceitaController" />
+      <command text="g:c ApiController" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -169,19 +147,22 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_222925_create_tags_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_223043_create_ingredientes_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_223805_create_receitatag_table.php" />
-        <option value="$PROJECT_DIR$/app/tests/IngredienteTest.php" />
         <option value="$PROJECT_DIR$/app/tests/TagTest.php" />
-        <option value="$PROJECT_DIR$/app/models/Ingrediente.php" />
-        <option value="$PROJECT_DIR$/app/models/Receita.php" />
-        <option value="$PROJECT_DIR$/app/models/Tag.php" />
-        <option value="$PROJECT_DIR$/app/models/ReceitaIngrediente.php" />
-        <option value="$PROJECT_DIR$/app/models/ReceitaTag.php" />
-        <option value="$PROJECT_DIR$/app/tests/ReceitaTest.php" />
         <option value="$PROJECT_DIR$/app/views/cadastrarReceita.blade.php" />
         <option value="db-console:/5a44233f/9ab055e6-c0c6-42f5-88b9-6ad2cfd71228/" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_223302_create_receitaingrediente_table.php" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
+        <option value="$PROJECT_DIR$/app/models/Ingrediente.php" />
+        <option value="$PROJECT_DIR$/app/models/ReceitaIngrediente.php" />
+        <option value="$PROJECT_DIR$/app/models/Tag.php" />
+        <option value="$PROJECT_DIR$/app/models/ReceitaTag.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/tests/IngredienteTest.php" />
+        <option value="$PROJECT_DIR$/app/tests/ReceitaTest.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ReceitaController.php" />
+        <option value="$PROJECT_DIR$/app/models/Receita.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/app/tests/ApiTest.php" />
       </list>
     </option>
   </component>
@@ -245,7 +226,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,8 +308,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,9 +340,10 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/autoload.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hunter2" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -352,32 +352,32 @@
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.Run Tests">
-    <configuration default="false" name="BDTest.testDatabase" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="BDTest" file="$PROJECT_DIR$/app/tests/BDTest.php" method="testDatabase" scope="Method" />
+    <configuration default="false" name="ReceitaTest.testIngsLigadosAreceita" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ReceitaTest" file="$PROJECT_DIR$/app/tests/ReceitaTest.php" method="testIngsLigadosAreceita" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="IngredienteTest.testCriarIngrediente" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="IngredienteTest" file="$PROJECT_DIR$/app/tests/IngredienteTest.php" method="testCriarIngrediente" scope="Method" />
+    <configuration default="false" name="ApiTest.testSetUp" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ApiTest" file="$PROJECT_DIR$/app/tests/ApiTest.php" method="testSetUp" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="TagTest.testCriarTag" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="TagTest" file="$PROJECT_DIR$/app/tests/TagTest.php" method="testCriarTag" scope="Method" />
+    <configuration default="false" name="ApiTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ApiTest" file="$PROJECT_DIR$/app/tests/ApiTest.php" scope="Class" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="ReceitaTest.testCriarReceitaComIngrediente" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="ReceitaTest" file="$PROJECT_DIR$/app/tests/ReceitaTest.php" method="testCriarReceitaComIngrediente" scope="Method" />
+    <configuration default="false" name="ApiTest.testAlgoritmoFindReceitas" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ApiTest" file="$PROJECT_DIR$/app/tests/ApiTest.php" method="testAlgoritmoFindReceitas" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="ReceitaTest.testCriarReceitaComTags" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="ReceitaTest" file="$PROJECT_DIR$/app/tests/ReceitaTest.php" method="testCriarReceitaComTags" scope="Method" />
+    <configuration default="false" name="ApiTest.testFornecerIgredienteQueNaoPossuaReceita" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ApiTest" file="$PROJECT_DIR$/app/tests/ApiTest.php" method="testFornecerIgredienteQueNaoPossuaReceita" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -418,19 +418,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.Run On My Server" />
       <item index="1" class="java.lang.String" itemvalue="PHPUnit.Run Tests" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.BDTest.testDatabase" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.IngredienteTest.testCriarIngrediente" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.TagTest.testCriarTag" />
-      <item index="5" class="java.lang.String" itemvalue="PHPUnit.ReceitaTest.testCriarReceitaComIngrediente" />
-      <item index="6" class="java.lang.String" itemvalue="PHPUnit.ReceitaTest.testCriarReceitaComTags" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.ReceitaTest.testIngsLigadosAreceita" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.ApiTest.testSetUp" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.ApiTest" />
+      <item index="5" class="java.lang.String" itemvalue="PHPUnit.ApiTest.testAlgoritmoFindReceitas" />
+      <item index="6" class="java.lang.String" itemvalue="PHPUnit.ApiTest.testFornecerIgredienteQueNaoPossuaReceita" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.ReceitaTest.testCriarReceitaComTags" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.ReceitaTest.testCriarReceitaComIngrediente" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.TagTest.testCriarTag" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.IngredienteTest.testCriarIngrediente" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.BDTest.testDatabase" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.ApiTest.testFornecerIgredienteQueNaoPossuaReceita" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.ApiTest.testAlgoritmoFindReceitas" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.ApiTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.ApiTest.testSetUp" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.ReceitaTest.testIngsLigadosAreceita" />
       </list>
     </recent_temporary>
   </component>
@@ -462,28 +462,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.49926144" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.50073856" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66026586" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66026586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55686855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -503,48 +503,26 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3045">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_160452_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="43" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1512">
-          <folding>
-            <element signature="n#style#0;n#div#3;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="693">
-          <folding />
-        </state>
+        <state line="9" column="39" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="693" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/start/global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1974">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1974" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1659">
-          <folding />
-        </state>
+        <state line="23" column="1" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1659" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/local/database.php">
@@ -563,44 +541,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="46" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1071">
-          <folding />
-        </state>
+        <state line="33" column="46" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1071" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3045">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3045" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_160452_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="567">
-          <folding />
-        </state>
+        <state line="9" column="38" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="693">
-          <folding />
-        </state>
+        <state line="9" column="39" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="693" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/start/global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1974">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1974" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1659">
-          <folding />
-        </state>
+        <state line="23" column="1" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1659" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/local/database.php">
@@ -619,9 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="46" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1071">
-          <folding />
-        </state>
+        <state line="33" column="46" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1071" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/hello.php">
@@ -651,37 +615,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3045">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/local/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/testing/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3045" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="242" selection-end="242" vertical-scroll-proportion="0.26666668" vertical-offset="0" max-vertical-offset="1701">
-          <folding />
-        </state>
+        <state line="8" column="1" selection-start="242" selection-end="242" vertical-scroll-proportion="0.26666668" vertical-offset="0" max-vertical-offset="1701" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
@@ -693,121 +637,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="207" selection-end="207" vertical-scroll-proportion="0.22580644" vertical-offset="42" max-vertical-offset="693">
-          <folding />
-        </state>
+        <state line="9" column="39" selection-start="207" selection-end="207" vertical-scroll-proportion="0.22580644" vertical-offset="42" max-vertical-offset="693" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/start/global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="-0.29032257" vertical-offset="462" max-vertical-offset="1785">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="-0.29032257" vertical-offset="462" max-vertical-offset="1785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1470">
-          <folding />
-        </state>
+        <state line="23" column="1" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_160452_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-          <folding />
-        </state>
+        <state line="19" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223805_create_receitatag_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.13793103" vertical-offset="168" max-vertical-offset="840">
-          <folding />
-        </state>
+        <state line="13" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.13793103" vertical-offset="168" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223043_create_ingredientes_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="316" selection-end="316" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="13" column="33" selection-start="316" selection-end="316" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_222925_create_tags_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="300" selection-end="300" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="173" selection-end="173" vertical-scroll-proportion="0.26666668" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="13" column="33" selection-start="300" selection-end="300" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/TagTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.22580644" vertical-offset="0" max-vertical-offset="651">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.22580644" vertical-offset="0" max-vertical-offset="651" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ReceitaIngrediente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/IngredienteTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ReceitaTag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/ReceitaTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1239">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="65" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Ingrediente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="13" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
-          <folding />
-        </state>
+        <state line="7" column="34" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="1071" />
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/5a44233f/9ab055e6-c0c6-42f5-88b9-6ad2cfd71228/">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="66" selection-end="66" vertical-scroll-proportion="0.10482529" vertical-offset="0" max-vertical-offset="601">
-          <folding />
-        </state>
+        <state line="3" column="21" selection-start="66" selection-end="66" vertical-scroll-proportion="0.10482529" vertical-offset="0" max-vertical-offset="601" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223302_create_receitaingrediente_table.php">
@@ -831,19 +706,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="1575">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1932">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/config/local/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="63" selection-start="2721" selection-end="2721" vertical-scroll-proportion="0.20421393" vertical-offset="1155" max-vertical-offset="1932">
-          <folding>
-            <element signature="n#style#0;n#div#3;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="21" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="0.1" vertical-offset="378" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/testing/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ReceitaTag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ReceitaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.032258064" vertical-offset="504" max-vertical-offset="2520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/IngredienteTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="21" selection-start="405" selection-end="482" vertical-scroll-proportion="0.7419355" vertical-offset="0" max-vertical-offset="777">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ReceitaIngrediente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="150" selection-end="237" vertical-scroll-proportion="0.16129032" vertical-offset="0" max-vertical-offset="651">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="57" selection-start="127" selection-end="127" vertical-scroll-proportion="0.12903225" vertical-offset="0" max-vertical-offset="651">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Ingrediente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="20" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/ReceitaTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="39" selection-start="396" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2982">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="46" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.2580645" vertical-offset="609" max-vertical-offset="1974">
+          <folding />
         </state>
       </provider>
     </entry>

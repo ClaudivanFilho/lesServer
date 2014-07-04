@@ -6,6 +6,18 @@ class IngredienteTest extends TestCase {
         'nome'        => 'Pão',
     ];
 
+    public static $ingrediente2 = [
+        'nome' => 'ovo',
+    ];
+
+    public static $ingrediente3 = [
+        'nome' => 'gengibre',
+    ];
+
+    public static $ingrediente4 = [
+        'nome' => 'macarrao',
+    ];
+
     public function setUp() {
         parent::setUp();
         $ing = new Ingrediente(IngredienteTest::$ingrediente1);
@@ -15,4 +27,5 @@ class IngredienteTest extends TestCase {
     public function testCriarIngrediente() {
         $this->assertEquals(1, Ingrediente::count());
     }
+
 }

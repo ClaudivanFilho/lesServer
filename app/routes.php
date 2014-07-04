@@ -26,7 +26,7 @@ Route::post('/receita/nova', function () {
     $rec->nome = Input::get('nome');
     $rec->nota = Input::get('nota');
     $rec->numPessoas = Input::get('numDePessoas');
-    $rec->nota = Input::get('categoria');
+    $rec->categoria = Input::get('categoria');
     $rec->tempo = Input::get('tempo');
     $rec->infoNutri = Input::get('infNutricional');
     $rec->modoPreparo = Input::get('modoPreparo');

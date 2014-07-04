@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97fa4adc-81e2-4948-b1d6-b92e9f592756" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Ingrediente.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tests/IngredienteTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Receita.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/ReceitaIngrediente.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/ReceitaTag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Tag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tests/TagTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MOVED" beforePath="C:\Users\Claudivan\git\lesServer\app\tests\BDTest.php" afterPath="$PROJECT_DIR$/app/tests/ReceitaTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cadastrarReceita.blade.php" afterPath="$PROJECT_DIR$/app/views/cadastrarReceita.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lesServer.iml" afterPath="$PROJECT_DIR$/.idea/lesServer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_03_223302_create_receitaingrediente_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_03_223302_create_receitaingrediente_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
     </list>
     <ignored path="lesServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_07_03_223302_create_receitaingrediente_table.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2014_07_03_223302_create_receitaingrediente_table.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223302_create_receitaingrediente_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="64" selection-start="505" selection-end="505" vertical-scroll-proportion="0.26666668" vertical-offset="126" max-vertical-offset="756">
+            <state line="18" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.46666667" vertical-offset="0" max-vertical-offset="4200">
               <folding />
             </state>
           </provider>
@@ -172,7 +167,6 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_222238_create_receitas_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_222925_create_tags_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_223043_create_ingredientes_table.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_223302_create_receitaingrediente_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_223805_create_receitatag_table.php" />
         <option value="$PROJECT_DIR$/app/tests/IngredienteTest.php" />
         <option value="$PROJECT_DIR$/app/tests/TagTest.php" />
@@ -185,6 +179,8 @@
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/cadastrarReceita.blade.php" />
         <option value="db-console:/5a44233f/9ab055e6-c0c6-42f5-88b9-6ad2cfd71228/" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_223302_create_receitaingrediente_table.php" />
+        <option value="$PROJECT_DIR$/app/config/app.php" />
       </list>
     </option>
   </component>
@@ -643,11 +639,6 @@
         <state line="4" column="39" selection-start="0" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4200" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascript/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4536" />
@@ -855,7 +846,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223302_create_receitaingrediente_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="64" selection-start="505" selection-end="505" vertical-scroll-proportion="0.26666668" vertical-offset="126" max-vertical-offset="756">
+        <state line="18" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.46666667" vertical-offset="0" max-vertical-offset="4200">
           <folding />
         </state>
       </provider>

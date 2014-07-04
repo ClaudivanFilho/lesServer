@@ -3,6 +3,26 @@
 @section('content')
 <script src="{{ URL::asset('javascript/angular.min.js') }}"></script>
 <script src="{{ URL::asset('javascript/script.js') }}"></script>
+
+<nav class="navbar navbar-inverse">
+    <ul class="nav navbar-nav">
+        <li class="active">
+            <a href="#">Cadastrar Receita</a>
+        </li>
+        <li>
+            <a href="/ingredientes">Ingredientes</a>
+        </li>
+        <li>
+            <a href="/receitas">Receitas</a>
+        </li>
+        <li>
+            <a href="/receitaing">Receita Ingredientes</a>
+        </li>
+        <li>
+            <a href="/receitatags">Receita Tags</a>
+        </li>
+    </ul>
+</nav>
 <div class="page-header center-block" ng-app="MyApp">
     {{ Form::open(['url' => 'receita/nova', 'method' => 'post']) }}
     <fieldset>
@@ -15,8 +35,8 @@
              ng-controller="IngredientesController">
             <div ng-repeat="ingrediente in ingredientes" >
                 <div id="igred" class="col-sm-4" style="margin: 0px;padding: 0px;">
-                    <label for="igredientes[]"> ## ingrediente.nome ## </label>
-                    {{ Form::text('igredientes[]', '', ['class' => 'form-control', 'placeholder' =>'']) }}
+                    <label for="ingredientes[]"> ## ingrediente.nome ## </label>
+                    {{ Form::text('ingredientes[]', '', ['class' => 'form-control', 'placeholder' =>'']) }}
                 </div>
                 <div id="medida" class="col-sm-4">
                     <label for="medidas[]"> Medida </label>
@@ -24,7 +44,7 @@
                     [
                     'Volume' => ['L' => 'Litros', 'ML' => 'MiliLitros'],
                     'Peso' => ['KG' => 'Kilos', 'G' => 'Gramas'],
-                    'Unidade' => ['U' => 'Unidade']
+                    'Unidade' => ['UND' => 'Unidade']
                     ], '', ['class' => 'form-control']); }}
                 </div>
                 <div id="quant" class="col-sm-2">
@@ -46,21 +66,19 @@
         <div class="col-sm-10" style="margin: 0px;padding: 0px;">
             <label for='number'> Numero de Pessoas </label>
             {{ Form::input('number', 'numDePessoas', '', ['class' => 'form-control']) }}
-        </div>
-        <div id="Categorias" class="col-sm-10" style="margin: 0px;padding: 0px;">
-            <label for="categoria"> Medida </label>
+            <label for="categoria"> Categoria </label>
             {{Form::select('categoria',
             [
             'Categorias' => ['LANCHE' => 'Lanche', 'ALMOCO' => 'Almoço', 'SAUDAVEL' => 'Saudável']
             ], '', ['class' => 'form-control']); }}
-        </div>
-        <div class="col-sm-10" style="margin: 0px;padding: 0px;">
+            <label for='tags'> Tags Separadas por Vírgula </label>
+            {{ Form::text('tags', null, ['class' => 'form-control']) }}
             <label for='tempo'> Tempo em Horas </label>
             {{ Form::input('number', 'tempo', '', ['class' => 'form-control', 'step' => '0.5']) }}
-        </div>
-        <div class="col-sm-10" style="margin: 0px;padding: 0px;">
             <label for='infNutricional'> Informação Nutricional </label>
             {{ Form::textarea('infNutricional', null, ['class' => 'form-control']) }}
+            <label for='modoPreparo'> Modo de Preparo</label>
+            {{ Form::textarea('modoPreparo', null, ['class' => 'form-control']) }}
         </div>
     </fieldset>
     {{ Form::submit('Enviar', ['class' => 'btn btn-submit']) }}

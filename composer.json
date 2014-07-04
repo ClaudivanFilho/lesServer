@@ -11,7 +11,7 @@
         "guzzlehttp/guzzle": "~4.0"
     },
     "require-dev": {
-        "way/generators": "1.*",
+        "way/generators": "2.*",
         "phpunit/phpunit": "3.7.*"
     },
 	"autoload": {

@@ -20,19 +20,19 @@ Route::get('/receita/nova', ['uses' => 'ReceitaController@create']);
 Route::post('/receita/nova', ['uses' => 'ReceitaController@store']);
 
 Route::get('/receitas', function () {
-    return Receita::all();
+    return Response::json(Receita::all(), 200, [], JSON_PRETTY_PRINT);
 });
 
 Route::get('/ingredientes', function () {
-    return Ingrediente::all();
+    return Response::json(Ingrediente::all(), 200, [], JSON_PRETTY_PRINT);
 });
 
 Route::get('/receitaing', function () {
-    return ReceitaIngrediente::all();
+    return Response::json(ReceitaIngrediente::all(), 200, [], JSON_PRETTY_PRINT);
 });
 
 Route::get('/receitatags', function () {
-    return ReceitaTag::all();
+    return Response::json(ReceitaTag::all(), 200, [], JSON_PRETTY_PRINT);
 });
 
 // API ///////////////

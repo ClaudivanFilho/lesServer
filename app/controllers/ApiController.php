@@ -24,12 +24,12 @@ class ApiController extends \BaseController {
 
         arsort($map_de_receitas); // ordena pelos valores
         $arr_receitas_ordenado = [];
-
         // add as colecoes a um array baseado nos nomes do mapa
         foreach (array_keys($map_de_receitas) as $nome_receita) {
             array_push($arr_receitas_ordenado, $map_nome_receita[$nome_receita]);
         }
-        return $arr_receitas_ordenado;
+
+        return Response::json($arr_receitas_ordenado, 200, [], JSON_PRETTY_PRINT);
 	}
 
 }

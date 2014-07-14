@@ -28,7 +28,7 @@ Route::get('/ingredientes', function () {
 });
 
 Route::get('/receitaing', function () {
-    return Response::json(ReceitaIngrediente::all(), 200, [], JSON_PRETTY_PRINT);
+    return Response::json(ReceitaIngrediente::with('ingrediente')->get(), 200, [], JSON_PRETTY_PRINT);
 });
 
 Route::get('/tags', function () {

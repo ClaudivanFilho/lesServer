@@ -85,4 +85,12 @@ class ApiTest extends TestCase {
         $this->assertResponseOk();
         $this->assertEquals('[]', $this->client->getResponse()->getContent());
     }
+
+    public function testAddTegsToReceita() {
+        $rec = Recipe::cria('Suco de laranja');
+        Recipe::saveTags(['gostoso', 'nutritivo','rapido'], $rec);
+        $this->assertEquals(3, Tag::count());
+        $this->assertEquals(3, ReceitaTag::count());
+        $this->assertEquals(3, Receita::where('nome','=','Suco de laranja')->first()->tags()->count());
+    }
 }

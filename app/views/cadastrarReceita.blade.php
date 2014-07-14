@@ -19,7 +19,7 @@
             <a href="/receitaing">Receita Ingredientes</a>
         </li>
         <li>
-            <a href="/receitatags">Receita Tags</a>
+            <a href="/tags">Tags</a>
         </li>
     </ul>
 </nav>

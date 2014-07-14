@@ -12,7 +12,7 @@ class Receita extends \Eloquent {
     }
 
     public function tags() {
-        return $this->hasMany('ReceitaTag')->with('tag');
+        return $this->hasMany('ReceitaTag');
     }
 
     public function ings() {

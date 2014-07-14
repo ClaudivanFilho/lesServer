@@ -31,8 +31,8 @@ Route::get('/receitaing', function () {
     return Response::json(ReceitaIngrediente::all(), 200, [], JSON_PRETTY_PRINT);
 });
 
-Route::get('/receitatags', function () {
-    return Response::json(ReceitaTag::all(), 200, [], JSON_PRETTY_PRINT);
+Route::get('/tags', function () {
+    return Response::json(Tag::all(), 200, [], JSON_PRETTY_PRINT);
 });
 
 // API ///////////////

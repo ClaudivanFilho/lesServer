@@ -3,7 +3,7 @@
 Route::get('/', function() {
 	return Redirect::to('/receita/nova');
 });
-
+//
 Route::get('/receita/nova', ['uses' => 'ReceitaController@create']);
 
 Route::post('/receita/nova', ['uses' => 'ReceitaController@store']);

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97fa4adc-81e2-4948-b1d6-b92e9f592756" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lesServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="71" selection-start="954" selection-end="954" vertical-scroll-proportion="0.516129" vertical-offset="105" max-vertical-offset="756">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.032258064" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -37,7 +38,7 @@
       <file leaf-file-name="ReceitaIngrediente.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/ReceitaIngrediente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="374" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
+            <state line="12" column="31" selection-start="374" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="441">
               <folding />
             </state>
           </provider>
@@ -55,7 +56,7 @@
       <file leaf-file-name="ReceitaController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ReceitaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="819">
+            <state line="8" column="27" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="819">
               <folding />
             </state>
           </provider>
@@ -64,7 +65,7 @@
       <file leaf-file-name="ReceitaTest.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/tests/ReceitaTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="31" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="2982">
+            <state line="114" column="31" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="2982">
               <folding />
             </state>
           </provider>
@@ -73,7 +74,7 @@
       <file leaf-file-name="Recipe.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/manager/Recipe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="861">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
               <folding />
             </state>
           </provider>
@@ -82,7 +83,7 @@
       <file leaf-file-name="ApiTest.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="44" selection-start="3115" selection-end="3115" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="2142">
+            <state line="83" column="58" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="2142">
               <folding />
             </state>
           </provider>
@@ -91,7 +92,7 @@
       <file leaf-file-name="Receita.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="43" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
+            <state line="14" column="43" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="903">
               <folding />
             </state>
           </provider>
@@ -257,57 +258,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,53 +298,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="Configurable.PHP.PHPUnit" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -414,7 +325,7 @@
       <recent name="C:\Users\Claudivan\git\lesServer\public\javascript" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Web Application.Run On My Server">
+  <component name="RunManager" selected="PHPUnit.Run Tests">
     <configuration default="false" name="ApiTest.testSetUp" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="ApiTest" file="$PROJECT_DIR$/app/tests/ApiTest.php" method="testSetUp" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
@@ -530,14 +441,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.49926144" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.49926144" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.50073856" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66026586" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -546,12 +457,12 @@
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55686855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -751,9 +662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-          <folding />
-        </state>
+        <state line="11" column="10" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascript/script.js">
@@ -765,58 +674,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="749" selection-end="749" vertical-scroll-proportion="0.33333334" vertical-offset="441" max-vertical-offset="1071">
-          <folding />
-        </state>
+        <state line="31" column="24" selection-start="749" selection-end="749" vertical-scroll-proportion="0.33333334" vertical-offset="441" max-vertical-offset="1071" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/start/global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="553" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1806">
-          <folding />
-        </state>
+        <state line="18" column="31" selection-start="553" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1806" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Ingrediente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="159" selection-end="167" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="6" column="28" selection-start="159" selection-end="167" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="999" selection-end="999" vertical-scroll-proportion="0.35332254" vertical-offset="223" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="43" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
-          <folding />
-        </state>
+        <state line="21" column="13" selection-start="999" selection-end="999" vertical-scroll-proportion="0.35332254" vertical-offset="223" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223805_create_receitatag_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.13333334" vertical-offset="168" max-vertical-offset="840">
-          <folding />
-        </state>
+        <state line="13" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.13333334" vertical-offset="168" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/ReceitaTag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="224" selection-end="224" vertical-scroll-proportion="0.23333333" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="44" selection-start="3115" selection-end="3115" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="2142">
-          <folding />
-        </state>
+        <state line="7" column="31" selection-start="224" selection-end="224" vertical-scroll-proportion="0.23333333" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/manager/Recipe.php">
@@ -830,15 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="27" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="819">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1932">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,9 +730,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="46" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.3063209" vertical-offset="609" max-vertical-offset="1932" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="43" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="58" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="2142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="71" selection-start="954" selection-end="954" vertical-scroll-proportion="0.516129" vertical-offset="105" max-vertical-offset="756">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.032258064" vertical-offset="0" max-vertical-offset="714">
           <folding />
         </state>
       </provider>

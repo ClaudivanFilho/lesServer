@@ -3,7 +3,7 @@
 @section('content')
 <script src="{{ URL::asset('javascript/angular.min.js') }}"></script>
 <script src="{{ URL::asset('javascript/script.js') }}"></script>
-
+<div class="container">
 <nav class="navbar navbar-inverse">
     <ul class="nav navbar-nav">
         <li class="active">
@@ -83,5 +83,6 @@
     </fieldset>
     {{ Form::submit('Enviar', ['class' => 'btn btn-submit']) }}
     {{ Form::close() }}
+</div>
 </div>
 @stop

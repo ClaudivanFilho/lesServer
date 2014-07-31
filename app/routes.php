@@ -1,9 +1,9 @@
 <?php
 
-Route::get('/', function() {
-	return Redirect::to('/receita/nova');
-});
-//
+Route::get('/', ['uses' => 'HomeController@index', 'as' => 'home']);
+Route::get('/developers', ['uses' => 'HomeController@devs', 'as' => 'devs']);
+Route::post('/sendEmail', ['as' => 'sendEmail', 'uses' => 'HomeController@sendEmail']);
+
 Route::get('/receita/nova', ['uses' => 'ReceitaController@create']);
 
 Route::post('/receita/nova', ['uses' => 'ReceitaController@store']);

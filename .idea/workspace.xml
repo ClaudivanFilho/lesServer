@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97fa4adc-81e2-4948-b1d6-b92e9f592756" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/biblioteca.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/claudivan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/diego.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/family.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/fork.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/friends.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/friends.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/geladeira.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/geladeira2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/home-office.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/igor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/mowatcher.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/mowatcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/rafael.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/ronaldo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/teste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/scriptsUI/desenvolvedores.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/dev.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/docs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/scriptsUI/menuconfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/base.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/base.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cadastrarReceita.blade.php" afterPath="$PROJECT_DIR$/app/views/cadastrarReceita.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home.blade.php" afterPath="$PROJECT_DIR$/app/views/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_07_31_110254_add_email_to_users_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_07_31_110254_add_email_to_users_table.php" />
     </list>
     <ignored path="lesServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,17 +34,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="29" selection-start="3158" selection-end="3158" vertical-scroll-proportion="0.0" vertical-offset="1273" max-vertical-offset="3045">
-              <folding>
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,10 +52,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_07_03_160452_create_users_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_160452_create_users_table.php">
+      <file leaf-file-name="ReceitaTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tests/ReceitaTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="37" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2982">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tests/TagTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="21" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCase.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="693">
               <folding />
             </state>
           </provider>
@@ -123,63 +82,26 @@
       <file leaf-file-name="2014_07_31_110254_add_email_to_users_table.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_31_110254_add_email_to_users_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="224" selection-end="224" vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="630">
+            <state line="11" column="47" selection-start="263" selection-end="263" vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carousel.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/carousel.css">
+      <file leaf-file-name="ApiTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="14" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="3213">
+            <state line="4" column="5" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
+      <file leaf-file-name="IngredienteTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tests/IngredienteTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastrarReceita.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="36" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1953">
-              <folding>
-                <marker date="1406803348257" expanded="true" signature="203:4083" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="239:678" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="271:671" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="299:359" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="372:439" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="452:511" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="524:597" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="610:661" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="732:4076" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="815:3981" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="916:941" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="942:1097" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="1155:1180" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="1181:2664" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="1291:2502" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="1350:1375" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="1376:1588" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="1639:2045" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="2095:2293" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="2351:2365" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="2366:2483" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="2586:2602" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="2603:2649" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="2703:2728" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="2729:2877" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="2917:2942" placeholder="..." />
-                <marker date="1406803348257" expanded="true" signature="2943:3965" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -251,8 +173,6 @@
         <option value="$PROJECT_DIR$/app/models/ReceitaIngrediente.php" />
         <option value="$PROJECT_DIR$/app/models/Tag.php" />
         <option value="$PROJECT_DIR$/app/models/ReceitaTag.php" />
-        <option value="$PROJECT_DIR$/app/tests/IngredienteTest.php" />
-        <option value="$PROJECT_DIR$/app/tests/ReceitaTest.php" />
         <option value="$PROJECT_DIR$/app/controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/app/start/global.php" />
         <option value="$PROJECT_DIR$/app/models/manager/Recipe.php" />
@@ -269,6 +189,8 @@
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_03_160452_create_users_table.php" />
+        <option value="$PROJECT_DIR$/app/tests/IngredienteTest.php" />
+        <option value="$PROJECT_DIR$/app/tests/ReceitaTest.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_31_110254_add_email_to_users_table.php" />
       </list>
     </option>
@@ -361,56 +283,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -429,25 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,7 +333,7 @@
       <recent name="C:\Users\Claudivan\git\lesServer\public\css" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ApiTest.testFornecerIgredienteQueNaoPossuaReceita">
+  <component name="RunManager" selected="PHPUnit.Run Tests">
     <configuration default="false" name="ApiTest.testSetUp" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="ApiTest" file="$PROJECT_DIR$/app/tests/ApiTest.php" method="testSetUp" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
@@ -714,11 +568,6 @@
         <state line="5" column="20" selection-start="197" selection-end="197" vertical-scroll-proportion="0.16666667" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="207" selection-end="207" vertical-scroll-proportion="0.22580644" vertical-offset="42" max-vertical-offset="693" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="1" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1470" />
@@ -732,11 +581,6 @@
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_222925_create_tags_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="33" selection-start="300" selection-end="300" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/TagTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.22580644" vertical-offset="0" max-vertical-offset="651" />
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/5a44233f/9ab055e6-c0c6-42f5-88b9-6ad2cfd71228/">
@@ -767,11 +611,6 @@
     <entry file="file://$PROJECT_DIR$/app/config/testing/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/IngredienteTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="405" selection-end="482" vertical-scroll-proportion="0.7419355" vertical-offset="0" max-vertical-offset="777" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Tag.php">
@@ -851,20 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/ReceitaTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="31" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.09677419" vertical-offset="2331" max-vertical-offset="2982">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="14" selection-start="2499" selection-end="2499" vertical-scroll-proportion="0.3548387" vertical-offset="1281" max-vertical-offset="2142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="43" selection-start="481" selection-end="481" vertical-scroll-proportion="0.06451613" vertical-offset="252" max-vertical-offset="903">
@@ -890,33 +715,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="36" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1953">
           <folding>
-            <marker date="1406803348257" expanded="true" signature="203:4083" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="239:678" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="271:671" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="299:359" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="372:439" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="452:511" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="524:597" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="610:661" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="732:4076" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="815:3981" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="916:941" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="942:1097" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="1155:1180" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="1181:2664" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="1291:2502" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="1350:1375" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="1376:1588" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="1639:2045" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="2095:2293" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="2351:2365" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="2366:2483" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="2586:2602" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="2603:2649" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="2703:2728" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="2729:2877" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="2917:2942" placeholder="..." />
-            <marker date="1406803348257" expanded="true" signature="2943:3965" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1406803348257" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -982,16 +807,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/IngredienteTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/TagTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/ReceitaTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2982">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_160452_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+        <state line="10" column="37" selection-start="248" selection-end="248" vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="5" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="693">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_31_110254_add_email_to_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="224" selection-end="224" vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="630">
+        <state line="11" column="47" selection-start="263" selection-end="263" vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>

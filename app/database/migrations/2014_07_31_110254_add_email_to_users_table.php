@@ -9,7 +9,7 @@ class AddEmailToUsersTable extends Migration {
 	{
 		Schema::table('users', function(Blueprint $table)
 		{
-			$table->string('email');
+			$table->string('email')->nullable();
 		});
 	}
 

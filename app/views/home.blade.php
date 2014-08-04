@@ -86,8 +86,10 @@
 
         {{ Form::label('email', 'Informe seu Email para quando o produto estiver pronto!',
         ['class' => 'awesome'] ) }}
+        <div class="col-sm-10">
         {{ Form::email('email', '', ['class' => 'form-control', 'placeholder' =>'email']) }}
-
+        </div>
+        {{ Form::submit('OK', ['class' => 'btn btn-submit']) }}
         {{ Form::close() }}
     </div>
 

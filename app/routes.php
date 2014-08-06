@@ -1,5 +1,7 @@
 <?php
 
+header("Access-Control-Allow-Origin: *");
+
 Route::get('/', ['uses' => 'HomeController@index', 'as' => 'home']);
 Route::get('/developers', ['uses' => 'HomeController@devs', 'as' => 'devs']);
 Route::post('/sendEmail', ['as' => 'sendEmail', 'uses' => 'HomeController@sendEmail']);

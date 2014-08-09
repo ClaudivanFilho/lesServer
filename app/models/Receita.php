@@ -5,7 +5,7 @@ class Receita extends \Eloquent {
                            'numPessoas', 'categoria',
                            'tempo', 'infoNutri',
                            'modoPreparo'];
-    protected $hidden = ['created_at', 'updated_at', 'id'];
+    protected $hidden = ['created_at', 'updated_at'];
 
     public function ingredientes() {
         return $this->hasMany('ReceitaIngrediente')->with('ingrediente');

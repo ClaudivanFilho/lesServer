@@ -4,7 +4,7 @@ class Receita extends \Eloquent {
     protected $fillable = ['nome', 'nota',
                            'numPessoas', 'categoria',
                            'tempo', 'infoNutri',
-                           'modoPreparo'];
+                           'modoPreparo', 'path_img'];
     protected $hidden = ['created_at', 'updated_at'];
 
     public function ingredientes() {

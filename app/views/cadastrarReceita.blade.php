@@ -79,6 +79,8 @@
             {{ Form::textarea('infNutricional', null, ['class' => 'form-control']) }}
             <label for='modoPreparo'> Modo de Preparo</label>
             {{ Form::textarea('modoPreparo', null, ['class' => 'form-control']) }}
+            <label for='path_img'> Url da imagem </label>
+            {{ Form::text('path_img', 'http://www.saboresdochef.com/sites/www.saboresdochef.com/files/imagecache/primera/receita-de-espetinho-de-salmao.jpg', ['class' => 'form-control']) }}
         </div>
     </fieldset>
     {{ Form::submit('Enviar', ['class' => 'btn btn-submit']) }}

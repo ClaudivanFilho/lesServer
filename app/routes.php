@@ -5,6 +5,7 @@ Route::get('/developers', ['uses' => 'HomeController@devs', 'as' => 'devs']);
 Route::post('/sendEmail', ['as' => 'sendEmail', 'uses' => 'HomeController@sendEmail']);
 
 Route::get('/receita/nova', ['uses' => 'ReceitaController@create']);
+Route::get('/receita/{id}', ['uses' => 'ReceitaController@show']);
 
 Route::post('/receita/nova', ['uses' => 'ReceitaController@store']);
 

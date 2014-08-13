@@ -6,6 +6,11 @@ class ReceitaController extends \BaseController {
         return View::make('cadastrarReceita');
     }
 
+    public function show($id){
+        $receita = Receita::findOrFail($id);
+        return View::make('receita', compact('receita'));
+    }
+
 	public function store()
 	{
         $rec              = new Receita();
@@ -16,6 +21,7 @@ class ReceitaController extends \BaseController {
         $rec->tempo       = Input::get('tempo');
         $rec->infoNutri   = Input::get('infNutricional');
         $rec->modoPreparo = Input::get('modoPreparo');
+        $rec->path_img = Input::get('path_img');
         $rec->save();
         $index = 0;
         foreach (Input::get('ingredientes') as $ing) {

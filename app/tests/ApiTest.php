@@ -93,4 +93,35 @@ class ApiTest extends TestCase {
         $this->assertEquals(3, ReceitaTag::count());
         $this->assertEquals(3, Receita::where('nome','=','Suco de laranja')->first()->tags()->count());
     }
+
+    public function testRestrictReceitas() {
+        $rec1 = Receita::all()[0]; // pao com ovo
+        $rec2 = Receita::all()[1]; // maracuja
+        $rec3 = Receita::all()[2]; // gengibre
+        $rec4 = Receita::all()[3];
+
+        $rec1->addIng('Pao', 'UND', '2');
+        $rec1->addIng('sal', 'G', '50');
+        $rec1->addIng('tomate', 'UND', '2');
+        $rec1->addIng('ovo', 'UND', '2');  // receita 1 têm pao,tomate,sal
+
+        $rec2->addIng('pao', 'UND', '4');  // receita 2 têm pão e sal
+        $rec2->addIng('sal', 'G', '50');
+
+        $rec3->addIng('pao', 'UND', '4');  // receita 3 têm pão
+
+        $rec4->addIng('ovo', 'UND', '4');
+
+        // procurar pao tomate
+        // rec1, rec2, rec3
+
+        $this->client->request('GET', '/api/receitasrestritas',
+                               ['ingredientes' => 'Pao,sal']);
+        //$this->assertContains('Com Ovo', $this->client->getResponse()->getContent());
+        $jsonResult = json_decode($this->client->getResponse()->getContent());
+        var_dump($jsonResult);
+        $this->assertTrue(true);
+        $this->assertEquals(1, count($jsonResult));
+        $this->assertEquals('Suco Maracujá', $jsonResult[0]->nome);
+    }
 }

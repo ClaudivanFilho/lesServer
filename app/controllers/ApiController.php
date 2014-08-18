@@ -35,20 +35,18 @@ class ApiController extends \BaseController {
     public function findRestritas() {
         $ingredientes = explode(",", Input::get('ingredientes'));
         $receitas_result = [];
-
-        $receitas = Receita::with('ingredientes.ingrediente')->get();
+        $receitas = Receita::with('ingredientes')->get();
         foreach ($receitas as $rec){
-            if ($receitas->ingredientes->count() != $ingredientes->count() ) {
-            }
-            else {
+            if ($rec->ingredientes->count() != count($ingredientes) ) {
+            } else {
                 $flag = true;
                 foreach ($rec->ingredientes as $rec_ing ) {
-                    if (!array_key_exists($ingredientes, $rec_ing->ingrediente->nome )) {
+                    if (!array_key_exists($rec_ing->ingrediente->nome, $ingredientes )) {
                         $flag = false;
                         break;
                     }
                 }
-                if ($flag){
+                if (!$flag){
                     array_push($receitas_result, $rec);
                 }
 		    }

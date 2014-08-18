@@ -34,22 +34,17 @@ class ApiController extends \BaseController {
 
     public function findRestritas() {
         $ingredientes = explode(",", Input::get('ingredientes'));
+        $ingredientes = array_map('strtolower', $ingredientes);
         $receitas_result = [];
         $receitas = Receita::with('ingredientes')->get();
         foreach ($receitas as $rec){
-            if ($rec->ingredientes->count() != count($ingredientes) ) {
-            } else {
-                $flag = true;
-                foreach ($rec->ingredientes as $rec_ing ) {
-                    if (!array_key_exists($rec_ing->ingrediente->nome, $ingredientes )) {
-                        $flag = false;
-                        break;
-                    }
-                }
-                if (!$flag){
-                    array_push($receitas_result, $rec);
-                }
-		    }
+            $array_ings = [];
+            foreach ($rec->ingredientes as $rec_ing) {
+                array_push($array_ings, $rec_ing->ingrediente->nome);
+            }
+            if ($array_ings == $ingredientes ) {
+                array_push($receitas_result, $rec);
+            }
         }
         return Response::json($receitas_result, 200, [], JSON_PRETTY_PRINT);
     }

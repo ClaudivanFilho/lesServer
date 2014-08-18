@@ -119,9 +119,15 @@ class ApiTest extends TestCase {
                                ['ingredientes' => 'Pao,sal']);
         //$this->assertContains('Com Ovo', $this->client->getResponse()->getContent());
         $jsonResult = json_decode($this->client->getResponse()->getContent());
-        var_dump($jsonResult);
         $this->assertTrue(true);
         $this->assertEquals(1, count($jsonResult));
         $this->assertEquals('Suco Maracujá', $jsonResult[0]->nome);
+
+        $this->client->request('GET', '/api/receitasrestritas',
+                               ['ingredientes' => 'sal']);
+        //$this->assertContains('Com Ovo', $this->client->getResponse()->getContent());
+        $jsonResult = json_decode($this->client->getResponse()->getContent());
+        $this->assertTrue(true);
+        $this->assertEquals(0, count($jsonResult));
     }
 }

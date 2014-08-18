@@ -32,4 +32,28 @@ class ApiController extends \BaseController {
         return Response::json($arr_receitas_ordenado, 200, [], JSON_PRETTY_PRINT);
 	}
 
+    public function findRestritas() {
+        $ingredientes = explode(",", Input::get('ingredientes'));
+        $receitas_result = [];
+
+        $receitas = Receita::with('ingredientes.ingrediente')->get();
+        foreach ($receitas as $rec){
+            if ($receitas->ingredientes->count() != $ingredientes->count() ) {
+            }
+            else {
+                $flag = true;
+                foreach ($rec->ingredientes as $rec_ing ) {
+                    if (!array_key_exists($ingredientes, $rec_ing->ingrediente->nome )) {
+                        $flag = false;
+                        break;
+                    }
+                }
+                if ($flag){
+                    array_push($receitas_result, $rec);
+                }
+		    }
+        }
+        return Response::json($receitas_result, 200, [], JSON_PRETTY_PRINT);
+    }
+
 }

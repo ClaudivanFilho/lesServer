@@ -21,9 +21,11 @@ Route::get('/receitaing', function () {
     return Response::json(ReceitaIngrediente::with('ingrediente')->get(), 200, [], JSON_PRETTY_PRINT);
 });
 
+
 Route::get('/tags', function () {
     return Response::json(Tag::all(), 200, [], JSON_PRETTY_PRINT);
 });
 
 // API ///////////////
 Route::get('api/receitas', ['uses' => 'ApiController@findReceitas']);
+Route::get('api/receitasrestritas', ['uses' => 'ApiController@findRestritas']);

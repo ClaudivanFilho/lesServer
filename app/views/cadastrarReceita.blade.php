@@ -10,13 +10,7 @@
             <a href="#">Cadastrar Receita</a>
         </li>
         <li>
-            <a href="/ingredientes">Ingredientes</a>
-        </li>
-        <li>
-            <a href="/receitas">Receitas</a>
-        </li>
-        <li>
-            <a href="/receitaing">Receita Ingredientes</a>
+            <a href="/">Home</a>
         </li>
     </ul>
 </nav>
@@ -55,10 +49,6 @@
             <a href="#" ng-click="add()" class="form-control btn btn-info" style="margin-top:10px;">
                 + igrediente
             </a>
-        </div>
-        <div class="col-sm-3" style="margin: 0px;padding: 0px;">
-            <label for='number'> Nota </label>
-            {{ Form::selectRange('number', 1, 10, 1, ['class' => 'form-control']); }}
         </div>
         <div class="col-sm-10" style="margin: 0px;padding: 0px;">
             <label for='number'> Numero de Pessoas </label>

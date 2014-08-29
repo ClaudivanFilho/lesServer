@@ -10,8 +10,7 @@ class ApiController extends \BaseController {
 
         $ingredientes = array_map('strtolower', $ingredientes);
         $ingredientes = Ingrediente::with('receitas',
-                                          'receitas.receita.ingredientes',
-                                          'receitas.receita.notas')->whereIn('nome', $ingredientes)->get();
+                                          'receitas.receita.ingredientes')->whereIn('nome', $ingredientes)->get();
         foreach ($ingredientes as $ing) {
             foreach ($ing->receitas as $receita_ing) {
                 $nome = $receita_ing->receita->nome;
@@ -38,7 +37,7 @@ class ApiController extends \BaseController {
         $ingredientes = explode(",", Input::get('ingredientes'));
         $ingredientes = array_map('strtolower', $ingredientes);
         $receitas_result = [];
-        $receitas = Receita::with('ingredientes','notas')->get();
+        $receitas = Receita::with('ingredientes')->get();
         foreach ($receitas as $rec){
             $array_ings = [];
             foreach ($rec->ingredientes as $rec_ing) {

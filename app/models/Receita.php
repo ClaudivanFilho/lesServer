@@ -6,6 +6,8 @@ class Receita extends \Eloquent {
                            'tempo', 'infoNutri',
                            'modoPreparo', 'path_img'];
     protected $hidden = ['created_at', 'updated_at'];
+    protected $with = ['notas'];
+
     public static $rules = [
 
     ];

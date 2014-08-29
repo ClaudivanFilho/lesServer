@@ -21,11 +21,6 @@ Route::get('/receitaing', function () {
     return Response::json(ReceitaIngrediente::with('ingrediente')->get(), 200, [], JSON_PRETTY_PRINT);
 });
 
-
-Route::get('/tags', function () {
-    return Response::json(Tag::all(), 200, [], JSON_PRETTY_PRINT);
-});
-
 Route::post('/setNota', function () {
     $nota       = Input::get('nota');
     $receita_id = Input::get('receita_id');

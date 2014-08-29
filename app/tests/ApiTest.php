@@ -82,6 +82,7 @@ class ApiTest extends TestCase {
         $rec4->addIng('ovo', 'UND', '4');
 
         $this->client->request('GET', '/api/receitas', ['ingredientes' => 'feijao']);
+
         $this->assertResponseOk();
         //$this->assertEquals('[]', $this->client->getResponse()->getContent());
     }

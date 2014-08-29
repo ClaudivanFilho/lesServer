@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97fa4adc-81e2-4948-b1d6-b92e9f592756" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Claudivan\git\lesServer\app\database\migrations\2014_08_29_150101_remove_nota_to_receitas_table.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ApiController.php" afterPath="$PROJECT_DIR$/app/controllers/ApiController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/ApiTest.php" afterPath="$PROJECT_DIR$/app/tests/ApiTest.php" />
     </list>
     <ignored path="lesServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,87 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApiController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1218">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Receita.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="4" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1092">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotaReceita.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/NotaReceita.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="45" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1092">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014_08_29_145722_create_notaReceita_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_145722_create_notaReceita_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014_08_13_102046_add_path_img_to_receitas_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_13_102046_add_path_img_to_receitas_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014_07_03_223805_create_receitatag_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223805_create_receitatag_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastrarReceita.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.06807131" vertical-offset="0" max-vertical-offset="1680">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="71" selection-start="412" selection-end="412" vertical-scroll-proportion="0.36206895" vertical-offset="0" max-vertical-offset="1197">
               <folding />
             </state>
           </provider>
@@ -121,7 +54,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="g:mi create_ingredientes_table --fields='nome:string'" />
       <command text="g:m ReceitaIngrediente" />
       <command text="g:mi create_receitaingrediente_table --fields=ingrediente_id:integer,receita_id:integer,medida:enum,quantidade:integer" />
       <command text="g:m ReceitaTag" />
@@ -146,12 +78,15 @@
       <command text="phpunit" />
       <command text="art migrate:rollback" />
       <command text="art migrate" />
+      <command text="phpunit" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
@@ -198,7 +133,6 @@
         <option value="$PROJECT_DIR$/app/views/receita.blade.html" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_13_102046_add_path_img_to_receitas_table.php" />
         <option value="$PROJECT_DIR$/app/views/receita.blade.php" />
-        <option value="$PROJECT_DIR$/app/tests/ApiTest.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_145722_create_notaReceita_table.php" />
         <option value="$PROJECT_DIR$/app/controllers/RecipesController.php" />
         <option value="$PROJECT_DIR$/app/views/recipes/edit.blade.php" />
@@ -206,11 +140,12 @@
         <option value="$PROJECT_DIR$/app/views/recipes/index.blade.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/models/Receita.php" />
-        <option value="$PROJECT_DIR$/app/controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/app/models/NotaReceita.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_150101_remove_nota_to_receitas_table.php" />
         <option value="$PROJECT_DIR$/app/views/cadastrarReceita.blade.php" />
+        <option value="$PROJECT_DIR$/app/tests/ApiTest.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ApiController.php" />
       </list>
     </option>
   </component>
@@ -786,7 +721,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/ReceitaTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="40" selection-start="3610" selection-end="3610" vertical-scroll-proportion="0.4" vertical-offset="2352" max-vertical-offset="2982" />
+        <state line="124" column="40" selection-start="3610" selection-end="3610" vertical-scroll-proportion="0.4" vertical-offset="2352" max-vertical-offset="2982">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/TagTest.php">
@@ -797,13 +734,6 @@
     <entry file="file://$PROJECT_DIR$/app/tests/IngredienteTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="0" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.8064516" vertical-offset="2268" max-vertical-offset="2919">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/RecipesController.php">
@@ -830,27 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="4" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1092">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/NotaReceita.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1092">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="1" selection-start="401" selection-end="401" vertical-scroll-proportion="0.3548387" vertical-offset="0" max-vertical-offset="651">
@@ -865,16 +774,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_222238_create_receitas_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1218">
+        <state line="12" column="35" selection-start="292" selection-end="292" vertical-scroll-proportion="0.36617404" vertical-offset="8" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223805_create_receitatag_table.php">
+    <entry file="file://$PROJECT_DIR$/app/tests/ApiTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+        <state line="28" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="0.26666668" vertical-offset="420" max-vertical-offset="2940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/NotaReceita.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="161" selection-end="161" vertical-scroll-proportion="0.16666667" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="4" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.96666664" vertical-offset="231" max-vertical-offset="1092">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="474" selection-end="474" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="1092">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_145722_create_notaReceita_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="167" selection-end="167" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
@@ -886,17 +823,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_08_29_145722_create_notaReceita_table.php">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_223805_create_receitatag_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_03_222238_create_receitas_table.php">
+    <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="292" selection-end="292" vertical-scroll-proportion="0.36617404" vertical-offset="8" max-vertical-offset="714">
-          <folding />
+        <state line="2" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.06583072" vertical-offset="0" max-vertical-offset="1680">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -907,15 +849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cadastrarReceita.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.06807131" vertical-offset="0" max-vertical-offset="1680">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#fieldset#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="11" column="71" selection-start="412" selection-end="412" vertical-scroll-proportion="0.36206895" vertical-offset="0" max-vertical-offset="1197">
+          <folding />
         </state>
       </provider>
     </entry>

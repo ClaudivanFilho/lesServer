@@ -26,6 +26,16 @@ Route::get('/tags', function () {
     return Response::json(Tag::all(), 200, [], JSON_PRETTY_PRINT);
 });
 
+Route::post('/setNota', function () {
+    $nota       = Input::get('nota');
+    $receita_id = Input::get('receita_id');
+    $receita    = Receita::find($receita_id);
+    $nota_rec   = new NotaReceita(['nota' => $nota]);
+    $nota_rec->receita()->associate($receita);
+    $nota_rec->save();
+});
+
 // API ///////////////
 Route::get('api/receitas', ['uses' => 'ApiController@findReceitas']);
 Route::get('api/receitasrestritas', ['uses' => 'ApiController@findRestritas']);
+Route::resource('recipes', 'RecipesController');

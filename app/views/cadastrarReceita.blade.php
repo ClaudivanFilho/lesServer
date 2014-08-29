@@ -18,9 +18,6 @@
         <li>
             <a href="/receitaing">Receita Ingredientes</a>
         </li>
-        <li>
-            <a href="/tags">Tags</a>
-        </li>
     </ul>
 </nav>
 <div class="page-header center-block" ng-app="MyApp">
@@ -71,8 +68,6 @@
             [
             'Categorias' => ['LANCHE' => 'Lanche', 'ALMOCO' => 'Almoço', 'SAUDAVEL' => 'Saudável']
             ], '', ['class' => 'form-control']); }}
-            <label for='tags'> Tags Separadas por Vírgula </label>
-            {{ Form::text('tags', null, ['class' => 'form-control']) }}
             <label for='tempo'> Tempo em Horas </label>
             {{ Form::input('number', 'tempo', '', ['class' => 'form-control', 'step' => '0.5']) }}
             <label for='infNutricional'> Informação Nutricional </label>

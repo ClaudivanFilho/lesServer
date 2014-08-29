@@ -1,14 +1,21 @@
 <?php
 
 class Receita extends \Eloquent {
-    protected $fillable = ['nome', 'nota',
+    protected $fillable = ['nome',
                            'numPessoas', 'categoria',
                            'tempo', 'infoNutri',
                            'modoPreparo', 'path_img'];
     protected $hidden = ['created_at', 'updated_at'];
+    public static $rules = [
+
+    ];
 
     public function ingredientes() {
         return $this->hasMany('ReceitaIngrediente')->with('ingrediente');
+    }
+
+    public function notas() {
+        return $this->hasMany('NotaReceita');
     }
 
     public function tags() {

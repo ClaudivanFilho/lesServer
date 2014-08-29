@@ -31,9 +31,6 @@ class ReceitaController extends \BaseController {
             );
             $index = $index + 1;
         }
-        $tags = explode(',', Input::get('tags'));
-
-        Recipe::saveTags($tags, $rec);
         return Input::all();
 	}
 

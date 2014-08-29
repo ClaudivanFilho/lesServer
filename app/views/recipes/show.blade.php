@@ -1,0 +1,1 @@
+C:\Users\Claudivan\git\lesServer\app/views/recipes/show.blade.php

@@ -21,7 +21,7 @@ Route::get('/receitaing', function () {
     return Response::json(ReceitaIngrediente::with('ingrediente')->get(), 200, [], JSON_PRETTY_PRINT);
 });
 
-Route::post('/setNota', function () {
+Route::post('api/setNota', function () {
     $nota       = Input::get('nota');
     $receita_id = Input::get('receita_id');
     $receita    = Receita::find($receita_id);

@@ -43,5 +43,6 @@ class ApiController extends \BaseController {
         $nota_rec   = new NotaReceita(['nota' => $nota]);
         $nota_rec->receita()->associate($receita);
         $nota_rec->save();
+        return Response::json("Nota Adicionada com sucesso", 200, [], JSON_PRETTY_PRINT);
     }
 }

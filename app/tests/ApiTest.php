@@ -131,4 +131,11 @@ class ApiTest extends TestCase {
         $this->assertTrue(true);
         $this->assertEquals(0, count($jsonResult));
     }
+
+    public function testNotaReceita() {
+        $this->client->request('GET', '/api/setNota',
+                               ['nota' => '5', 'receita_id' => '1']);
+        //var_dump(Receita::find(1)->first()->notas->lists('nota'));
+
+    }
 }

@@ -7,7 +7,7 @@ class CreateNotaReceitaTable extends Migration {
 
 	public function up()
 	{
-		Schema::create('NotaReceita', function(Blueprint $table)
+		Schema::create('notareceita', function(Blueprint $table)
 		{
 			$table->increments('id');
             $table->integer('nota')->default(0);
@@ -18,7 +18,7 @@ class CreateNotaReceitaTable extends Migration {
 
 	public function down()
 	{
-		Schema::drop('NotaReceita');
+		Schema::drop('notareceita');
 	}
 
 }

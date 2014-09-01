@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97fa4adc-81e2-4948-b1d6-b92e9f592756" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_08_29_145722_create_notaReceita_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_08_29_145722_create_notaReceita_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/ApiTest.php" afterPath="$PROJECT_DIR$/app/tests/ApiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/NotaReceita.php" afterPath="$PROJECT_DIR$/app/models/NotaReceita.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ApiController.php" afterPath="$PROJECT_DIR$/app/controllers/ApiController.php" />
     </list>
     <ignored path="lesServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApiController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ApiController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="46" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1113">
+            <state line="41" column="54" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.6" vertical-offset="483" max-vertical-offset="1113">
               <folding />
             </state>
           </provider>
@@ -74,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotaReceita.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NotaReceita.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/NotaReceita.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="270" selection-end="270" vertical-scroll-proportion="0.26666668" vertical-offset="0" max-vertical-offset="630">
+            <state line="9" column="1" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -205,10 +202,10 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_150101_remove_nota_to_receitas_table.php" />
         <option value="$PROJECT_DIR$/app/views/cadastrarReceita.blade.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/app/tests/ApiTest.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_08_29_145722_create_notaReceita_table.php" />
         <option value="$PROJECT_DIR$/app/models/NotaReceita.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ApiController.php" />
       </list>
     </option>
   </component>
@@ -425,28 +422,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -901,13 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1113">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Receita.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="29" selection-start="507" selection-end="507" vertical-scroll-proportion="0.58064514" vertical-offset="0" max-vertical-offset="1092">
@@ -938,7 +906,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/NotaReceita.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="270" selection-end="270" vertical-scroll-proportion="0.26666668" vertical-offset="0" max-vertical-offset="630">
+        <state line="9" column="1" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="54" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.6" vertical-offset="483" max-vertical-offset="1113">
           <folding />
         </state>
       </provider>

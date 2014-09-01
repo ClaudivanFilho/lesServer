@@ -36,4 +36,12 @@ class ApiController extends \BaseController {
         return Response::json($receitas_result, 200, [], JSON_PRETTY_PRINT);
     }
 
+    public function setNota() {
+        $nota       = Input::get('nota');
+        $receita_id = Input::get('receita_id');
+        $receita    = Receita::find($receita_id);
+        $nota_rec   = new NotaReceita(['nota' => $nota]);
+        $nota_rec->receita()->associate($receita);
+        $nota_rec->save();
+    }
 }

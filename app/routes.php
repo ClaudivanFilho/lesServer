@@ -23,7 +23,9 @@ Route::get('/receitaing', function () {
 
 Route::resource('recipes', 'RecipesController');
 
-// API ///////////////
+// API ===================
 Route::get('api/setNota', ['uses' => 'ApiController@setNota']);
 Route::get('api/receitas', ['uses' => 'ApiController@findReceitas']);
 Route::get('api/receitasrestritas', ['uses' => 'ApiController@findRestritas']);
+
+

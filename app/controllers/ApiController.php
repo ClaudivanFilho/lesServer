@@ -39,7 +39,7 @@ class ApiController extends \BaseController {
     public function setNota() {
         $nota       = Input::get('nota');
         $receita_id = Input::get('receita_id');
-        $receita    = Receita::find($receita_id);
+        $receita    = Receita::find($receita_id)->first();
         $nota_rec   = new NotaReceita(['nota' => $nota]);
         $nota_rec->receita()->associate($receita);
         $nota_rec->save();
